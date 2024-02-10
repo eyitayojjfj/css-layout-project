@@ -160,9 +160,6 @@ nav  li{
     justify-content: stretch;
     
 }
-.section1 div:hover{
-    box-shadow: 10px 1px 10px 10px rgba(0, 0, 0, 0.1);
-}
 .card{
     display: flex;
     justify-content: center;
@@ -171,6 +168,11 @@ nav  li{
     margin-left: 50px;
     margin-top: 10px;
 }
+
+.card:hover{
+    box-shadow: 5px 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .card-img-top{
     vertical-align: middle;
     height: 311px;
